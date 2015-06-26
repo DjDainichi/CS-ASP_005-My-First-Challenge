@@ -11,19 +11,40 @@ namespace MyFirstChallenge
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //Console.WriteLine("This is what happens at Page_Load");
+            //Console.ReadLine();
         }
 
         // MyFirstChallenge
         // Declare 2 variables set them to value of TextBox .Text
+        // Added some conditions to this project to provide diferent functionality
+
         protected void clickMeButton_Click(object sender, EventArgs e)
         {
             string ageQuery = ageQueryTextBox.Text;
+            
+            int parsedAge = int.Parse(ageQueryTextBox.Text);
+
             string moneyInPocket = moneyQueryTextBox.Text;
 
-            string result = "At " + ageQuery + " one would expect you would have "+
-                                            "more than " + moneyInPocket + " in your pocket";
-            resultLabel.Text = result;
+            int parsedMoney = int.Parse(moneyInPocket);
+
+           
+
+            if ((parsedAge >= 40) && (parsedMoney <= 100))
+            {
+                string moneyInPocketA = moneyQueryTextBox.Text;
+                string resultA = "At " + ageQuery + " one would expect you would have " +
+                                "more than " + moneyInPocketA + " in your pocket";
+                resultLabel.Text = resultA;
+            }
+            else if((parsedAge <= 39 )&&(parsedMoney >= 25))
+            {
+                string moneyInPocketB = moneyQueryTextBox.Text;
+                string resultB = "At " + ageQuery + " your well on your way to having far " +
+                                 "more than " + moneyInPocketB + " in your pocket";
+                resultLabel.Text = resultB;
+            }
         }
     }
 }
