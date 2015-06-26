@@ -1,0 +1,6 @@
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\Bob Tabor ASP.Net Tutorial\005_Challenge – Challenge 1\MyFirstChallenge\MyFirstChallenge\bin\MyFirstChallenge.dll.config
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\Bob Tabor ASP.Net Tutorial\005_Challenge – Challenge 1\MyFirstChallenge\MyFirstChallenge\bin\MyFirstChallenge.dll
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\Bob Tabor ASP.Net Tutorial\005_Challenge – Challenge 1\MyFirstChallenge\MyFirstChallenge\bin\MyFirstChallenge.pdb
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\Bob Tabor ASP.Net Tutorial\005_Challenge – Challenge 1\MyFirstChallenge\MyFirstChallenge\obj\Debug\MyFirstChallenge.csprojResolveAssemblyReference.cache
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\Bob Tabor ASP.Net Tutorial\005_Challenge – Challenge 1\MyFirstChallenge\MyFirstChallenge\obj\Debug\MyFirstChallenge.dll
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\Bob Tabor ASP.Net Tutorial\005_Challenge – Challenge 1\MyFirstChallenge\MyFirstChallenge\obj\Debug\MyFirstChallenge.pdb
