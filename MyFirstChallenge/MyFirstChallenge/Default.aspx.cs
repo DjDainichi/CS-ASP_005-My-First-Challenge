@@ -33,6 +33,7 @@ namespace MyFirstChallenge
 
             if ((parsedAge >= 40) && (parsedMoney <= 100))
             {
+                //Refactor using case statements with class level variables?
                 string moneyInPocketA = moneyQueryTextBox.Text;
                 string resultA = "At " + ageQuery + " one would expect you would have " +
                                 "more than " + moneyInPocketA + " in your pocket";
